@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  
+	<link rel="stylesheet" href="style.css" >
+	
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<title>KittyHouse</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="кафе, кофе, дисерт, выпечка, кот, кошка, котенок, приют">
+	<meta name="description" content="KittyHouse - первое заведение в Магнитогорске,
+	в котором объединили кафе и приют для бездомных кошек и котят. Мы стараемся делать счастливее не только людей,
+	но и дать шанс беспомощным животным. Каждый имеет право на дом!">
+	<meta name="author" content="Анастасия Щукина">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	html { overflow-x: hidden; }
+	</style>
+  </head>
+
+  <body>
+  <section>
+	<header class="main-header">
+		<a id="start1"></a>
+		<nav class="zagolovok">
+			<ul>
+				<li><a href="home.html">Главная</a></li>
+				<li><a href="new.html#news">Новости</a></li>
+				<li><a href="law.html#laws">Документация</a></li>
+				<li><a href="form.html#menu">Прескурант</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+		
+	<div class="allSlides">
+			<div class="slides">
+				<img class="slad" src="slader/IMG13.jpg">
+				<div class="txt">
+					<p><span style="font-weight:bold">KittyHouse</span> <br> - первое котокафе в твоем городе.
+					Делай мир счастливее с нами</p>
+				</div>
+				<div class="start read">
+					<a href="home.html#start2">Читать</a>
+				</div>
+			</div>
+			<div class="slides">   
+				<img class="slad" src="slader/IMG14.jpg">
+				<div class="txt">
+					<p>У нас вы можете насладиться бодрящим кофе и восхитетельной выпечкой в компании 
+					любимых питомцев!</p>
+				</div>
+				<div class="start read">
+					<a href="form.html#menu">Читать</a>
+				</div>
+			</div>
+			<div class="slides">   
+				<img class="slad" src="slader/IMG15.jpg">
+				<div class="txt">
+					<p>Знакомьтесь с нашими любимцами и следите за свежими новостями нашей жизни!</p>
+				</div>
+				<div class="start read">
+					<a href="new.html#news">Читать</a>
+				</div>
+			</div>
+			<div class="slides">   
+				<img class="slad" src="slader/IMG16.jpg">
+				<div class="txt">
+					<p>Мы сотрудничаем с лучшими ветклиниками и зоомагазинами! Каждое животное регулярно 
+					проходит осмотры и прививается!</p>
+				</div>
+				<div class="start read">
+					<a href="law.html#laws">Читать</a>
+				</div>
+			</div>
+			
+			<div>
+				<a class="click previous" onclick="plusSlides(-1)"><img src="slader/previous.png"></a>
+				<a class="click next" onclick="plusSlides(1)"><img src="slader/next.png"></a>
+			</div>
+			<br>
+			<div style="text-align: center;">
+				<span class="dot" onclick="currentSlide(1)"></span>       
+		        <span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span>
+		    </div>
+		</div>
+	
+	<div class="features">
+		<div class="features-start">
+			<a id="menu"></a>
+			<h1 style="font-weight:bold"> Меню:</h1>
+			<p><span style="font-weight:bold">Напитки:</span></p>
+			<br>
+			<ul>
+				<li>ЭКСПРЕССО..........................................................55 р.</li>
+				<li>КАПУЧИНО..........................................................100 р.</li>
+				<li>АМЕРИКАНО..........................................................90 р.</li>
+				<li>ЛАТТЕ.............................................................120 р.</li>
+				<li>МОКАЧИНО..........................................................140 р.</li>
+				<li>КОФЕ-КРЕМ.........................................................100 р.</li>
+				<li>КАКАО..............................................................90 р.</li>
+				<li>ГОРЯЧИЙ ШОКОЛАД...................................................100 р.</li>
+				<li>ЧАЙ...............................................................110 р.</li>
+			</ul>
+			<br>
+			<p><span style="font-weight:bold">Десерты:</span></p>
+			<br>
+			<ul>
+				<li>ТОРТ "ШОКОЛАДНЫЙ МУС".............................................140 р.</li>
+				<li>ТОРТ "ПЬЯНАЯ ВИШНЯ"...............................................110 р.</li>
+				<li>ЧИЗКЕЙК КЛАССИЧЕСКИЙ..............................................130 р.</li>
+				<li>ЧИЗКЕЙК МРАМОРНЫЙ.................................................120 р.</li>
+				<li>ШТРУДЕЛЬ..........................................................110 р.</li>
+				<li>ТИРАМИСУ..........................................................130 р.</li>
+				<li>ПАННА-КОТТА.......................................................130 р.</li>
+				<li>ЭКЛЕРЫ.............................................................25 р.</li>
+				<li>ПРОФИТРОЛИ.........................................................80 р.</li>
+			</ul>
+		</div>
+		<div class="features-start">
+			<h1 style="font-weight:bold"> Услуги:</h1>
+			<br>
+			<ul>
+				<li>пребывание на территории кафе в течение 1 часа с бесплатным угощением, 
+				возможностью читать книги, играть в игры, общаться с питомцами – 50–500 руб.;</li>
+				<br>
+				<li>нахождение на территории кафе с тем же набором опций, но с поминутной тарификацией – 1–10 руб./мин;</li>
+				<br>
+				<li>проведение в кафе разнообразных детских и взрослых мероприятий – дней рождения, 
+				новогодних и иных праздников, корпоративных вечеринок – от 2 тыс. руб./час;</li>
+				<br>
+				<li>организация разнообразных мастер-классов – 250–500 руб. за 1 гостя.</li>
+			</ul>
+		</div>
+	</div>
+	
+<footer>&copy;Щукина Анастасия Николаевна<br> 
+	группа АПОб-16 <br>
+	МГТУ имени Г.И.Носова, 2019 <br>
+	Для создания сайта был использован Notepad++ - текстовый редактор для написания программного кода,<br> 
+	html - стандартизированный язык разметки документов в сети Интренет,<br>
+	css - язык оформления внешнего вида сайтов,<br>
+	JavaScrit - язык программирования для добавления интерактива на сайт.
+	</footer>
+</section>
+</body>
+<script type="text/javascript" src="slader.js"></script>
+</html>
